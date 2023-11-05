@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator Using Ternary Operator</title>
+</head>
+<body>
+    <h1>
+        Age Calculator Using Ternary Operator
+    </h1>
+
+    <script>
+        let age = 50
+
+        let result = 
+        `You are 
+        ${(age < 8) ? "Child" :
+            (age < 18) ? "Teenager" :
+                (age < 30) ? "Adult" :
+                    (age < 45) ? "Senior Adult" : "Senior Citizen"
+        }`
+        console.log("Result:", result)
+    </script>
+</body>
+</html>
